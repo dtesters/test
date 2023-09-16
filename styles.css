@@ -1,11 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a; /* Dark mode background color */
+    background-color: #222; /* Dark mode background */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 .container {
@@ -13,56 +12,38 @@ body {
 }
 
 .card {
-    background-color: #333; /* Initial card background color */
-    color: white;
+    background-color: #444; /* Animated background color */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    animation: cardColorChange 5s infinite alternate; /* Card background color animation */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: background-color 0.5s;
 }
 
 .title {
-    color: #FF5733; /* Animated title color */
+    color: #f00; /* Animated text color (red) */
 }
 
 .description {
-    color: #00FF00; /* Animated description color */
+    color: #0f0; /* Animated text color (green) */
 }
 
 .button-container {
+    margin-top: 20px;
+}
+
+.row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
 
-.button-row {
-    display: flex;
-    margin: 10px;
-}
-
-.animated-button {
-    background-color: #3498db; /* Initial button background color */
-    color: white;
+.button {
+    background-color: #00f; /* Animated button background color (blue) */
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    margin: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Button background color animation */
-}
-
-.animated-button:hover {
-    background-color: #e74c3c; /* Button background color on hover */
-}
-
-.dark-mode {
-    background-color: #000; /* Dark mode background color */
-}
-
-.dark-mode .card {
-    color: #fff; /* Text color in dark mode */
-}
-
-.dark-mode .animated-button {
-    background-color: #555; /* Dark mode button background color */
+    transition: background-color 0.5s;
 }
