@@ -2,7 +2,7 @@ const card = document.querySelector('.card');
 
 // Change card background color on hover
 card.addEventListener('mouseenter', () => {
-    card.style.backgroundColor = '#FFA500'; /* Orange */
+    card.style.backgroundColor = '#ADD8E6'; /* Orange */
 });
 
 card.addEventListener('mouseleave', () => {
