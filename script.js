@@ -6,7 +6,7 @@ card.addEventListener('mouseenter', () => {
 });
 
 card.addEventListener('mouseleave', () => {
-    card.style.backgroundColor = '#333'; /* Initial card background color */
+    card.style.backgroundColor = '#32a6cc'; /* Initial card background color */
 });
 
 // Change button background color on hover
