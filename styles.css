@@ -14,12 +14,16 @@ body {
 }
 
 .card {
-    background-color: #32a6cc; /* Initial card background color */
+    background-color: #32a6cc; /* Updated background color to #32a6cc */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     transition: background-color 0.5s ease-in-out;
     animation: pulse 2s infinite alternate;
+}
+
+/* Rest of your CSS styles remain the same */
+
 }
 
 .title {
